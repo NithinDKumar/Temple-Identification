@@ -1,0 +1,42 @@
+.temples-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .temple-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .temple-box {
+    background-color: rgba(255, 255, 255, 0.8);  /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 200px;
+  }
+  
+  .temple-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .temple-info {
+    text-align: left;
+  }
+  
+  .temple-image-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .temple-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

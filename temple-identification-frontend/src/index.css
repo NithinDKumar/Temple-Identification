@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+/* Global CSS file (e.g., index.css) */
+body {
+  background-image: url('https://i.im.ge/2024/08/08/fOmfaM.Ganesha.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.temple-details-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  backdrop-filter: blur(20px); /* Apply blur effect */
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temple-details-box.expanded {
+  width: 100%;
+  cursor: default;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly less transparent when expanded */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+}
+
+/* Add more specific styles for other elements as needed */

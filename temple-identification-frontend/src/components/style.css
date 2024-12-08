@@ -1,0 +1,35 @@
+body {
+  background: url('/temple-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.search-bar, .upload-image {
+  margin: 20px;
+}
+
+.temple-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.temple-item {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.temple-details {
+  margin-top: 20px;
+}

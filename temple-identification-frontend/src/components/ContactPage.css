@@ -1,0 +1,24 @@
+.contact-page {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .contact-item {
+    width: 200px;
+    background: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  

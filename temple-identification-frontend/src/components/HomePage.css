@@ -1,0 +1,282 @@
+/* HomePage.css */
+
+.home-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.search-upload-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-section, .upload-section {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.search-input, .upload-button, .file-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  height: 40px;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.file-input {
+  padding: 5px 5px;
+}
+
+.upload-button, .search-button, .login-button {
+  cursor: pointer;
+  background-color: #d3f9d8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 16px;
+  height: 40px;
+}
+
+.temple-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.temple-details-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.temple-details-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.temple-details-box.expanded {
+  width: 100%;
+  cursor: default;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly less transparent when expanded */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+}
+
+.temple-image-container {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.temple-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.expanded-details {
+  flex: 2;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.expanded-details p {
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.sub-box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.sub-box h3 {
+  margin-top: 0;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.light-background {
+  background-color: #f0f0f0;
+}
+
+.temple-image-placeholder {
+  width: 300px;
+  height: 300px;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.temple-box {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.random-color-box {
+  background-color: #ccc;
+}
+
+/* Ensure that .expanded-container and .temple-card have consistent padding */
+.expanded-container, .temple-card {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Add spacing between the large box and the small boxes */
+.expanded-container {
+  margin-top: 30px; /* Adjust the margin as needed */
+}
+
+.temple-card {
+  margin-bottom: 30px; /* Add spacing between the small boxes */
+  background-color: #f9f9f9;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+/* Add hover effect to .temple-card */
+.temple-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the expanded box content */
+.temple-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Adjust the image and details layout */
+.temple-details img {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.temple-details .details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details .sub-box {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.details .sub-box h3 {
+  margin-top: 0;
+}
+
+/* Adjust button styles */
+.button {
+  background-color: #5cb85c;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: #45a049;
+  color: white;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.login-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+/* Add this to your main CSS file (e.g., App.css or HomePage.css) */
+body {
+  background-image: url('https://i.im.ge/2024/08/08/fOmfaM.Ganesha.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif; /* Ensure consistent font */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
