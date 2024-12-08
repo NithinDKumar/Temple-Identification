@@ -51,6 +51,10 @@ This project aims to promote cultural heritage by offering an easy way to identi
    ```bash
     cd frontend
     npm install
-    npm start
 
+    npm start
+4. **Screenshot
+   The Homepage
+   ![home page](https://github.com/user-attachments/assets/3dd17a13-9478-4506-acd6-5f397790364c)
+   ![search](https://github.com/user-attachments/assets/7f906cb4-eb88-4a29-a97c-405b6fc159e9)
 
